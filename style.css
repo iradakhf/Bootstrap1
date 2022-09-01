@@ -1,0 +1,241 @@
+.navbar-nav .nav-item a:hover{
+    color: rgba(255, 255, 255, 0.8) !important;
+    
+}
+#first{
+    background-color: var(--bs-body-color);
+}
+
+#first .container .box2 img{ 
+  width: 75%;
+  border-radius: 5px;
+}
+#first .container .box1{
+    width: 120%;
+}
+#second .container .box1{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#first .container .box1 p{ 
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 24px;
+ }
+ #first .container .box1 h1{ 
+    color: white;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 55.5px;
+    text-align: left;
+    margin-bottom: 8px;
+ }
+ #first .container .box1 button{ 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding: 8px 24px;
+    margin-bottom: 8rem;
+    margin-right: 1.5rem;
+ }
+ #second .container .all .box1 h2{
+    font-size: 31.235px;
+    font-weight: 700;
+    line-height: 29.76px;
+    text-align: start;
+    color: rgb(33, 37, 41);
+ }
+ #second .container .all .box h2{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-align: start;
+    color: rgb(33, 37, 41);
+ }
+ #second .container .all .box p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: start;
+    color: rgb(33, 37, 41);
+ }
+ #second .container .all .box svg{
+    line-height: 36px;
+    color: white;
+    font-size: 4px;
+    font-weight: 400;
+    width: 48px;
+    margin-bottom: 16px;
+    height: 48px;
+    border: 1px solid rgb(13, 110, 253);
+    background-color: rgb(13, 110, 253);
+    border-radius: 5px;
+ }
+ #second .all2{
+    margin-top: 1.5rem;
+    margin-right: -10rem;
+    margin-bottom: 1.5rem;
+ }
+
+@media (max-width: 576px){
+    #first .container .box2{
+        display: none;
+    }
+
+}
+#third{
+    background-color: rgb(248, 249, 250);
+    padding: 5rem;
+}
+#third .container .col-lg-12 .text p{
+    margin-bottom: 24px;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    color: rgb(33, 37, 41);
+}
+#third .container .col-lg-12{
+   padding: 2rem 18rem;
+
+}
+.foot{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.foot img{
+    margin-left: 0rem;
+    border-radius: 5rem
+}
+.foot p{
+    text-align: left;
+    margin-left: -14rem;
+    font-weight: bold;
+}
+.foot p span{
+    color: blue;
+}
+#fourth{
+    padding-top: 5rem;
+}
+#fourth h2{
+    margin-bottom: 8px;
+    font-size: 30.34px;
+    font-weight: 700;
+    line-height: 30.408px;
+    text-align: center;
+}
+#fourth p{
+    margin-bottom: 48px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #6c757d !important;
+    padding: 1rem 25rem;
+}
+#fourth .cardPart p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: start;
+    color: rgb(33, 37, 41);
+    padding: 0;
+    margin: 0;
+}
+#fourth .cardPart img{
+    width: 100%;
+  border: 1px solid transparent;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+}
+#fourth .cardPart .top{
+background-color: rgba(219,217,217,0.94);
+border-color: white;
+border-radius: 0.5rem;
+}
+#fourth .cardPart h5{
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: start;
+    color: rgb(33, 37, 41);
+    margin-top: 1rem;
+}
+#fourth .cardPart .left img{
+  width: 100%;
+  border-radius: 5rem;
+  background-color: white;
+
+}
+#fourth .cardPart{
+    margin-top: 2rem;
+    margin-bottom: 48px;
+    
+
+}
+#fourth .cardPart .col-lg-3-5{
+ box-shadow: 0px 8px 103px 2px rgba(219,217,217,0.9);
+ border-radius: 0.5rem;
+
+}
+#fourth .bottom p{
+  color: rgb(33, 37, 41) !important;
+
+
+}
+#fourth .cardPart .bottom a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.2rem .5rem;
+    background-color: rgb(13, 110, 253);
+}
+#fourth .cardPart .bottom{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem
+}
+#fifth h2{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    color: white;
+}
+#fifth p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+ color: rgba(255, 255, 255, 0.5);
+}
+#fifth .container{
+    border-radius: .5rem;
+}
+footer{
+    margin-top: 7rem;
+    padding: 1.5rem;
+    background-color: rgb(33, 37, 41);
+
+}
+footer p{
+    margin-bottom: 0;
+}
+footer a{
+    color: white;
+    padding-left: 1rem;
+    font-size: 14px;
+}
